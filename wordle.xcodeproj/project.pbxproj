@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87032A3528B8BF7200934163 /* GridRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87032A3428B8BF7200934163 /* GridRow.swift */; };
+		87032A3728B9468200934163 /* WordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87032A3628B9468200934163 /* WordData.swift */; };
+		871DD6F528CE52A000E8889F /* roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 871DD6F428CE52A000E8889F /* roboto.ttf */; };
+		871DD6F728CE53B800E8889F /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 871DD6F628CE53B800E8889F /* RobotoSlab-Light.ttf */; };
+		871DD6F928CE540000E8889F /* RobotoSlab-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 871DD6F828CE540000E8889F /* RobotoSlab-ExtraBold.ttf */; };
+		8738B7C128C0B34000C66C5C /* WordFeverClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738B7C028C0B34000C66C5C /* WordFeverClass.swift */; };
+		8738B7C328C0B3BC00C66C5C /* WordleFever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738B7C228C0B3BC00C66C5C /* WordleFever.swift */; };
+		8738B7C528C0B4F300C66C5C /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738B7C428C0B4F300C66C5C /* MotionAnimation.swift */; };
+		8738B7CA28C0BCFA00C66C5C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738B7C928C0BCFA00C66C5C /* StringExtension.swift */; };
+		8738B7CE28C0C07500C66C5C /* WordFeverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738B7CD28C0C07500C66C5C /* WordFeverButton.swift */; };
+		873E9BE228FE610D00EB0419 /* WordMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E9BE128FE610D00EB0419 /* WordMatrix.swift */; };
+		873E9BE428FE654F00EB0419 /* WordMatrixScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E9BE328FE654F00EB0419 /* WordMatrixScreen.swift */; };
+		8747E27428CF9C95000724CC /* readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747E27328CF9C95000724CC /* readme.swift */; };
+		8747E28D28CF9D7C000724CC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8747E24728CF96E8000724CC /* WidgetKit.framework */; };
+		8747E28E28CF9D7C000724CC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8747E24928CF96E8000724CC /* SwiftUI.framework */; };
+		8747E29128CF9D7C000724CC /* wid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747E29028CF9D7C000724CC /* wid.swift */; };
+		8747E29328CF9D7C000724CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8747E29228CF9D7C000724CC /* Assets.xcassets */; };
+		8747E29728CF9D7C000724CC /* widExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8747E28C28CF9D7C000724CC /* widExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8747E29E28CF9E21000724CC /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747E29D28CF9E21000724CC /* Entry.swift */; };
+		8747E2A728CFA150000724CC /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747E2A628CFA150000724CC /* MediumView.swift */; };
+		8747E2A928CFA15C000724CC /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747E2A828CFA15C000724CC /* LargeView.swift */; };
+		8768294E28B7F59C00EBBD0C /* wordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768294D28B7F59C00EBBD0C /* wordleApp.swift */; };
+		8768295028B7F59C00EBBD0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768294F28B7F59C00EBBD0C /* ContentView.swift */; };
+		8768295228B7F59D00EBBD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8768295128B7F59D00EBBD0C /* Assets.xcassets */; };
+		8768295528B7F59D00EBBD0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8768295428B7F59D00EBBD0C /* Preview Assets.xcassets */; };
+		8768295F28B8033000EBBD0C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768295E28B8033000EBBD0C /* Data.swift */; };
+		8768296228B804C000EBBD0C /* WordleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768296128B804C000EBBD0C /* WordleClass.swift */; };
+		8768296428B8063800EBBD0C /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768296328B8063800EBBD0C /* LetterView.swift */; };
+		8768296628B806E400EBBD0C /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768296528B806E400EBBD0C /* RulesView.swift */; };
+		8768296828B8075500EBBD0C /* WordleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768296728B8075500EBBD0C /* WordleGameView.swift */; };
+		8768296A28B8077500EBBD0C /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768296928B8077500EBBD0C /* ScoreView.swift */; };
+		8768296E28B815A500EBBD0C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768296D28B815A500EBBD0C /* CustomButton.swift */; };
+		879E414228CE49C20008EB35 /* Combo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 879E414128CE49C10008EB35 /* Combo-Regular.ttf */; };
+		879FE70D28C47D2100375672 /* WordleMistakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FE70C28C47D2100375672 /* WordleMistakes.swift */; };
+		879FE70F28C48D8300375672 /* WordFeverRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FE70E28C48D8300375672 /* WordFeverRulesView.swift */; };
+		879FE71128C48DA500375672 /* AllRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FE71028C48DA500375672 /* AllRulesView.swift */; };
+		87EC31A128C33B08005CAF5E /* PickModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC31A028C33B08005CAF5E /* PickModesView.swift */; };
+		87EC31A328C33F0D005CAF5E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC31A228C33F0D005CAF5E /* StatsView.swift */; };
+		87EC31A728C34F91005CAF5E /* WordleFeverResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC31A628C34F91005CAF5E /* WordleFeverResultView.swift */; };
+		87EC31A928C351A8005CAF5E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC31A828C351A8005CAF5E /* constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8747E29528CF9D7C000724CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8768294228B7F59C00EBBD0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8747E28B28CF9D7C000724CC;
+			remoteInfo = widExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8747E25428CF96EA000724CC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8747E29728CF9D7C000724CC /* widExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87032A3428B8BF7200934163 /* GridRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRow.swift; sourceTree = "<group>"; };
+		87032A3628B9468200934163 /* WordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordData.swift; sourceTree = "<group>"; };
+		871DD6F428CE52A000E8889F /* roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = roboto.ttf; sourceTree = "<group>"; };
+		871DD6F628CE53B800E8889F /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		871DD6F828CE540000E8889F /* RobotoSlab-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8738B7C028C0B34000C66C5C /* WordFeverClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFeverClass.swift; sourceTree = "<group>"; };
+		8738B7C228C0B3BC00C66C5C /* WordleFever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleFever.swift; sourceTree = "<group>"; };
+		8738B7C428C0B4F300C66C5C /* MotionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimation.swift; sourceTree = "<group>"; };
+		8738B7C928C0BCFA00C66C5C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8738B7CD28C0C07500C66C5C /* WordFeverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFeverButton.swift; sourceTree = "<group>"; };
+		873E9BE128FE610D00EB0419 /* WordMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordMatrix.swift; sourceTree = "<group>"; };
+		873E9BE328FE654F00EB0419 /* WordMatrixScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordMatrixScreen.swift; sourceTree = "<group>"; };
+		8747E24728CF96E8000724CC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8747E24928CF96E8000724CC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8747E27328CF9C95000724CC /* readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readme.swift; sourceTree = "<group>"; };
+		8747E28C28CF9D7C000724CC /* widExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8747E29028CF9D7C000724CC /* wid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wid.swift; sourceTree = "<group>"; };
+		8747E29228CF9D7C000724CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8747E29428CF9D7C000724CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8747E29D28CF9E21000724CC /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		8747E2A628CFA150000724CC /* MediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumView.swift; sourceTree = "<group>"; };
+		8747E2A828CFA15C000724CC /* LargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
+		8768294A28B7F59C00EBBD0C /* wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8768294D28B7F59C00EBBD0C /* wordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordleApp.swift; sourceTree = "<group>"; };
+		8768294F28B7F59C00EBBD0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8768295128B7F59D00EBBD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8768295428B7F59D00EBBD0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8768295E28B8033000EBBD0C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8768296128B804C000EBBD0C /* WordleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleClass.swift; sourceTree = "<group>"; };
+		8768296328B8063800EBBD0C /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
+		8768296528B806E400EBBD0C /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		8768296728B8075500EBBD0C /* WordleGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleGameView.swift; sourceTree = "<group>"; };
+		8768296928B8077500EBBD0C /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		8768296D28B815A500EBBD0C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		879E414128CE49C10008EB35 /* Combo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Combo-Regular.ttf"; sourceTree = "<group>"; };
+		879E414328CE49FC0008EB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		879FE70C28C47D2100375672 /* WordleMistakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleMistakes.swift; sourceTree = "<group>"; };
+		879FE70E28C48D8300375672 /* WordFeverRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFeverRulesView.swift; sourceTree = "<group>"; };
+		879FE71028C48DA500375672 /* AllRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRulesView.swift; sourceTree = "<group>"; };
+		87EC31A028C33B08005CAF5E /* PickModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickModesView.swift; sourceTree = "<group>"; };
+		87EC31A228C33F0D005CAF5E /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		87EC31A628C34F91005CAF5E /* WordleFeverResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleFeverResultView.swift; sourceTree = "<group>"; };
+		87EC31A828C351A8005CAF5E /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8747E28928CF9D7C000724CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8747E28E28CF9D7C000724CC /* SwiftUI.framework in Frameworks */,
+				8747E28D28CF9D7C000724CC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8768294728B7F59C00EBBD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8738B7C828C0BCEB00C66C5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8738B7C928C0BCFA00C66C5C /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8747E24628CF96E8000724CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8747E24728CF96E8000724CC /* WidgetKit.framework */,
+				8747E24928CF96E8000724CC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8747E28F28CF9D7C000724CC /* wid */ = {
+			isa = PBXGroup;
+			children = (
+				8747E2A128CFA016000724CC /* Views */,
+				8747E29028CF9D7C000724CC /* wid.swift */,
+				8747E29D28CF9E21000724CC /* Entry.swift */,
+				8747E29228CF9D7C000724CC /* Assets.xcassets */,
+				8747E29428CF9D7C000724CC /* Info.plist */,
+			);
+			path = wid;
+			sourceTree = "<group>";
+		};
+		8747E2A128CFA016000724CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8747E2A628CFA150000724CC /* MediumView.swift */,
+				8747E2A828CFA15C000724CC /* LargeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8768294128B7F59C00EBBD0C = {
+			isa = PBXGroup;
+			children = (
+				8768294C28B7F59C00EBBD0C /* wordle */,
+				8747E28F28CF9D7C000724CC /* wid */,
+				8747E24628CF96E8000724CC /* Frameworks */,
+				8768294B28B7F59C00EBBD0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8768294B28B7F59C00EBBD0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8768294A28B7F59C00EBBD0C /* wordle.app */,
+				8747E28C28CF9D7C000724CC /* widExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8768294C28B7F59C00EBBD0C /* wordle */ = {
+			isa = PBXGroup;
+			children = (
+				879E414328CE49FC0008EB35 /* Info.plist */,
+				879E414028CE49B60008EB35 /* Fonts */,
+				8738B7C828C0BCEB00C66C5C /* Extensions */,
+				8768296028B804B300EBBD0C /* model */,
+				8768295D28B8031D00EBBD0C /* data */,
+				8768295C28B8031600EBBD0C /* views */,
+				8768294D28B7F59C00EBBD0C /* wordleApp.swift */,
+				8768294F28B7F59C00EBBD0C /* ContentView.swift */,
+				8768295B28B7F5A800EBBD0C /* screens */,
+				8768295128B7F59D00EBBD0C /* Assets.xcassets */,
+				8768295328B7F59D00EBBD0C /* Preview Content */,
+				87EC31A828C351A8005CAF5E /* constants.swift */,
+				8747E27328CF9C95000724CC /* readme.swift */,
+			);
+			path = wordle;
+			sourceTree = "<group>";
+		};
+		8768295328B7F59D00EBBD0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8768295428B7F59D00EBBD0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8768295B28B7F5A800EBBD0C /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				8768296528B806E400EBBD0C /* RulesView.swift */,
+				879FE70E28C48D8300375672 /* WordFeverRulesView.swift */,
+				873E9BE328FE654F00EB0419 /* WordMatrixScreen.swift */,
+				879FE71028C48DA500375672 /* AllRulesView.swift */,
+				87EC31A028C33B08005CAF5E /* PickModesView.swift */,
+				87EC31A228C33F0D005CAF5E /* StatsView.swift */,
+				8738B7C228C0B3BC00C66C5C /* WordleFever.swift */,
+				8768296728B8075500EBBD0C /* WordleGameView.swift */,
+				87EC31A628C34F91005CAF5E /* WordleFeverResultView.swift */,
+				8768296928B8077500EBBD0C /* ScoreView.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		8768295C28B8031600EBBD0C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8768296328B8063800EBBD0C /* LetterView.swift */,
+				8738B7C428C0B4F300C66C5C /* MotionAnimation.swift */,
+				87032A3428B8BF7200934163 /* GridRow.swift */,
+				879FE70C28C47D2100375672 /* WordleMistakes.swift */,
+				8738B7CD28C0C07500C66C5C /* WordFeverButton.swift */,
+				8768296D28B815A500EBBD0C /* CustomButton.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8768295D28B8031D00EBBD0C /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8768295E28B8033000EBBD0C /* Data.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8768296028B804B300EBBD0C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8768296128B804C000EBBD0C /* WordleClass.swift */,
+				87032A3628B9468200934163 /* WordData.swift */,
+				873E9BE128FE610D00EB0419 /* WordMatrix.swift */,
+				8738B7C028C0B34000C66C5C /* WordFeverClass.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		879E414028CE49B60008EB35 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				879E414128CE49C10008EB35 /* Combo-Regular.ttf */,
+				871DD6F428CE52A000E8889F /* roboto.ttf */,
+				871DD6F628CE53B800E8889F /* RobotoSlab-Light.ttf */,
+				871DD6F828CE540000E8889F /* RobotoSlab-ExtraBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8747E28B28CF9D7C000724CC /* widExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8747E29828CF9D7C000724CC /* Build configuration list for PBXNativeTarget "widExtension" */;
+			buildPhases = (
+				8747E28828CF9D7C000724CC /* Sources */,
+				8747E28928CF9D7C000724CC /* Frameworks */,
+				8747E28A28CF9D7C000724CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widExtension;
+			productName = widExtension;
+			productReference = 8747E28C28CF9D7C000724CC /* widExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8768294928B7F59C00EBBD0C /* wordle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8768295828B7F59D00EBBD0C /* Build configuration list for PBXNativeTarget "wordle" */;
+			buildPhases = (
+				8768294628B7F59C00EBBD0C /* Sources */,
+				8768294728B7F59C00EBBD0C /* Frameworks */,
+				8768294828B7F59C00EBBD0C /* Resources */,
+				8747E25428CF96EA000724CC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8747E29628CF9D7C000724CC /* PBXTargetDependency */,
+			);
+			name = wordle;
+			productName = wordle;
+			productReference = 8768294A28B7F59C00EBBD0C /* wordle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8768294228B7F59C00EBBD0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8747E28B28CF9D7C000724CC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8768294928B7F59C00EBBD0C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8768294528B7F59C00EBBD0C /* Build configuration list for PBXProject "wordle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8768294128B7F59C00EBBD0C;
+			productRefGroup = 8768294B28B7F59C00EBBD0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8768294928B7F59C00EBBD0C /* wordle */,
+				8747E28B28CF9D7C000724CC /* widExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8747E28A28CF9D7C000724CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8747E29328CF9D7C000724CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8768294828B7F59C00EBBD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871DD6F528CE52A000E8889F /* roboto.ttf in Resources */,
+				871DD6F728CE53B800E8889F /* RobotoSlab-Light.ttf in Resources */,
+				879E414228CE49C20008EB35 /* Combo-Regular.ttf in Resources */,
+				8768295528B7F59D00EBBD0C /* Preview Assets.xcassets in Resources */,
+				8768295228B7F59D00EBBD0C /* Assets.xcassets in Resources */,
+				871DD6F928CE540000E8889F /* RobotoSlab-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8747E28828CF9D7C000724CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8747E2A928CFA15C000724CC /* LargeView.swift in Sources */,
+				8747E29E28CF9E21000724CC /* Entry.swift in Sources */,
+				8747E2A728CFA150000724CC /* MediumView.swift in Sources */,
+				8747E29128CF9D7C000724CC /* wid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8768294628B7F59C00EBBD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8768295028B7F59C00EBBD0C /* ContentView.swift in Sources */,
+				8768296A28B8077500EBBD0C /* ScoreView.swift in Sources */,
+				873E9BE228FE610D00EB0419 /* WordMatrix.swift in Sources */,
+				8768296E28B815A500EBBD0C /* CustomButton.swift in Sources */,
+				879FE70F28C48D8300375672 /* WordFeverRulesView.swift in Sources */,
+				8768296828B8075500EBBD0C /* WordleGameView.swift in Sources */,
+				8738B7CA28C0BCFA00C66C5C /* StringExtension.swift in Sources */,
+				8738B7CE28C0C07500C66C5C /* WordFeverButton.swift in Sources */,
+				873E9BE428FE654F00EB0419 /* WordMatrixScreen.swift in Sources */,
+				8768295F28B8033000EBBD0C /* Data.swift in Sources */,
+				8768296628B806E400EBBD0C /* RulesView.swift in Sources */,
+				87EC31A728C34F91005CAF5E /* WordleFeverResultView.swift in Sources */,
+				87EC31A328C33F0D005CAF5E /* StatsView.swift in Sources */,
+				879FE71128C48DA500375672 /* AllRulesView.swift in Sources */,
+				8738B7C528C0B4F300C66C5C /* MotionAnimation.swift in Sources */,
+				8747E27428CF9C95000724CC /* readme.swift in Sources */,
+				87032A3528B8BF7200934163 /* GridRow.swift in Sources */,
+				8768294E28B7F59C00EBBD0C /* wordleApp.swift in Sources */,
+				87032A3728B9468200934163 /* WordData.swift in Sources */,
+				8738B7C128C0B34000C66C5C /* WordFeverClass.swift in Sources */,
+				8738B7C328C0B3BC00C66C5C /* WordleFever.swift in Sources */,
+				879FE70D28C47D2100375672 /* WordleMistakes.swift in Sources */,
+				87EC31A928C351A8005CAF5E /* constants.swift in Sources */,
+				8768296228B804C000EBBD0C /* WordleClass.swift in Sources */,
+				8768296428B8063800EBBD0C /* LetterView.swift in Sources */,
+				87EC31A128C33B08005CAF5E /* PickModesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8747E29628CF9D7C000724CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8747E28B28CF9D7C000724CC /* widExtension */;
+			targetProxy = 8747E29528CF9D7C000724CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8747E29928CF9D7C000724CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HJ6SH2W7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wid;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anubhavRawat.wordle.wid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8747E29A28CF9D7C000724CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HJ6SH2W7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wid;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anubhavRawat.wordle.wid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8768295628B7F59D00EBBD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8768295728B7F59D00EBBD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8768295928B7F59D00EBBD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wordle/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HJ6SH2W7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wordle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anubhavRawat.wordle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8768295A28B7F59D00EBBD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wordle/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HJ6SH2W7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wordle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anubhavRawat.wordle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8747E29828CF9D7C000724CC /* Build configuration list for PBXNativeTarget "widExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8747E29928CF9D7C000724CC /* Debug */,
+				8747E29A28CF9D7C000724CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8768294528B7F59C00EBBD0C /* Build configuration list for PBXProject "wordle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8768295628B7F59D00EBBD0C /* Debug */,
+				8768295728B7F59D00EBBD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8768295828B7F59D00EBBD0C /* Build configuration list for PBXNativeTarget "wordle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8768295928B7F59D00EBBD0C /* Debug */,
+				8768295A28B7F59D00EBBD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8768294228B7F59C00EBBD0C /* Project object */;
+}
