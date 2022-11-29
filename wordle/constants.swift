@@ -19,3 +19,4 @@ struct Constants{
     static var wordleStats: String = "wordleScore"
     static var allrules: String = "allRules"
 }
+//test branch
