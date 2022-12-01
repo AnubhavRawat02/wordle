@@ -18,6 +18,7 @@ struct AllRulesView: View {
             }.tabViewStyle(PageTabViewStyle())
         }
     }
+//    comment
 }
 
 //main branch comment
