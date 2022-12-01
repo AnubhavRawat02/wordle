@@ -21,6 +21,8 @@ struct AllRulesView: View {
 //    comment
 }
 
+//main branch comment
+
 //struct AllRulesView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        AllRulesView()
