@@ -18,6 +18,7 @@ struct AllRulesView: View {
             }.tabViewStyle(PageTabViewStyle())
         }
     }
+//    comment
 }
 
 //struct AllRulesView_Previews: PreviewProvider {
