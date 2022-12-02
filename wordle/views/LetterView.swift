@@ -112,3 +112,6 @@ struct LetterView: View {
 //        LetterView(letter: "A", flipTime: 1, flipornot: false).previewLayout(.sizeThatFits).padding()
 //    }
 //}
+
+
+//t
